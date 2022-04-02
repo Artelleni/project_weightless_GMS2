@@ -1,13 +1,18 @@
 {
   "resources": [
+    {"id":{"name":"Obj_sounds","path":"objects/Obj_sounds/Obj_sounds.yy",},"order":6,},
     {"id":{"name":"scr_object_create","path":"scripts/scr_object_create/scr_object_create.yy",},"order":1,},
     {"id":{"name":"spr_test_mouse_pos","path":"sprites/spr_test_mouse_pos/spr_test_mouse_pos.yy",},"order":0,},
     {"id":{"name":"Obj_Player","path":"objects/Obj_Player/Obj_Player.yy",},"order":0,},
     {"id":{"name":"scr_object_movement","path":"scripts/scr_object_movement/scr_object_movement.yy",},"order":0,},
+    {"id":{"name":"track0","path":"sounds/track0/track0.yy",},"order":0,},
     {"id":{"name":"Obj_floor","path":"objects/Obj_floor/Obj_floor.yy",},"order":2,},
+    {"id":{"name":"Spr_weight_scale","path":"sprites/Spr_weight_scale/Spr_weight_scale.yy",},"order":0,},
     {"id":{"name":"Spr_test_scale","path":"sprites/Spr_test_scale/Spr_test_scale.yy",},"order":2,},
     {"id":{"name":"Obj_debug","path":"objects/Obj_debug/Obj_debug.yy",},"order":3,},
+    {"id":{"name":"rm_level_1","path":"rooms/rm_level_1/rm_level_1.yy",},"order":1,},
     {"id":{"name":"spr_test_object_book","path":"sprites/spr_test_object_book/spr_test_object_book.yy",},"order":1,},
+    {"id":{"name":"rm_main_menu","path":"rooms/rm_main_menu/rm_main_menu.yy",},"order":2,},
     {"id":{"name":"Scr_scale_step","path":"scripts/Scr_scale_step/Scr_scale_step.yy",},"order":0,},
     {"id":{"name":"Sprite5","path":"sprites/Sprite5/Sprite5.yy",},"order":3,},
     {"id":{"name":"Scr_scale_create","path":"scripts/Scr_scale_create/Scr_scale_create.yy",},"order":2,},
@@ -34,6 +39,8 @@
   },
   "RoomOrderNodes": [
     {"roomId":{"name":"rm_test","path":"rooms/rm_test/rm_test.yy",},},
+    {"roomId":{"name":"rm_main_menu","path":"rooms/rm_main_menu/rm_main_menu.yy",},},
+    {"roomId":{"name":"rm_level_1","path":"rooms/rm_level_1/rm_level_1.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":0,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
@@ -55,6 +62,7 @@
     {"folderPath":"folders/Scripts/Game_scripts/scr_scale.yy","order":1,"resourceVersion":"1.0","name":"scr_scale","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Scripts/Game_scripts.yy","order":2,"resourceVersion":"1.0","name":"Game_scripts","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Scripts/Debug_scripts.yy","order":3,"resourceVersion":"1.0","name":"Debug_scripts","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Sprites/weigh_scale.yy","order":3,"resourceVersion":"1.0","name":"weigh_scale","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},

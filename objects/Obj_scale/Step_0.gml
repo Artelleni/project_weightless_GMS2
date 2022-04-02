@@ -15,3 +15,5 @@ Scr_scale_step(Obj_test_book,Obj_scale,Obj_Object_test_0);
 
 
 }
+
+

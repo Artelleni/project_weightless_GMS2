@@ -5,8 +5,8 @@ function Scr_scale_create(object0,scale_value)
 
 
 
-object0.ScaleTotal = scale_value;
-
+object0.scale_weight_total = scale_value;
+object0.scale_weight_value	= 0;
 
 
 }

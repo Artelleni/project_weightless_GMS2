@@ -2,11 +2,11 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "scr_objects",
-    "path": "folders/Scripts/Game_scripts/scr_objects.yy",
+    "name": "scr_scale",
+    "path": "folders/Scripts/Game_scripts/scr_scale.yy",
   },
   "resourceVersion": "1.0",
-  "name": "scr_object_movement",
+  "name": "Scr_scale_create",
   "tags": [],
   "resourceType": "GMScript",
 }

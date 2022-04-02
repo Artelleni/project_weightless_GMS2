@@ -1,8 +1,11 @@
 {
   "resources": [
+    {"id":{"name":"scr_object_create","path":"scripts/scr_object_create/scr_object_create.yy",},"order":1,},
     {"id":{"name":"spr_test_mouse_pos","path":"sprites/spr_test_mouse_pos/spr_test_mouse_pos.yy",},"order":0,},
     {"id":{"name":"Obj_Player","path":"objects/Obj_Player/Obj_Player.yy",},"order":0,},
+    {"id":{"name":"scr_object_movement","path":"scripts/scr_object_movement/scr_object_movement.yy",},"order":0,},
     {"id":{"name":"Obj_floor","path":"objects/Obj_floor/Obj_floor.yy",},"order":2,},
+    {"id":{"name":"Obj_debug","path":"objects/Obj_debug/Obj_debug.yy",},"order":3,},
     {"id":{"name":"spr_test_object_book","path":"sprites/spr_test_object_book/spr_test_object_book.yy",},"order":1,},
     {"id":{"name":"spr_floor","path":"sprites/spr_floor/spr_floor.yy",},"order":1,},
     {"id":{"name":"Obj_test_book","path":"objects/Obj_test_book/Obj_test_book.yy",},"order":1,},
@@ -41,6 +44,7 @@
     {"folderPath":"folders/Notes.yy","order":11,"resourceVersion":"1.0","name":"Notes","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Extensions.yy","order":12,"resourceVersion":"1.0","name":"Extensions","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/test.yy","order":0,"resourceVersion":"1.0","name":"test","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Scripts/scr_objects.yy","order":1,"resourceVersion":"1.0","name":"scr_objects","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},

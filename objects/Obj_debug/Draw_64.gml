@@ -1,6 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+if(debug_mode)
+{
+draw_text(0,0,"FPS = " + string(fps));
 
-
-scr_object_movement(Obj_test_book);
+}

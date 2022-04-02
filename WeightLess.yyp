@@ -5,7 +5,6 @@
     {"id":{"name":"spr_test_mouse_pos","path":"sprites/spr_test_mouse_pos/spr_test_mouse_pos.yy",},"order":0,},
     {"id":{"name":"Obj_Player","path":"objects/Obj_Player/Obj_Player.yy",},"order":0,},
     {"id":{"name":"scr_object_movement","path":"scripts/scr_object_movement/scr_object_movement.yy",},"order":0,},
-    {"id":{"name":"track0","path":"sounds/track0/track0.yy",},"order":0,},
     {"id":{"name":"Obj_floor","path":"objects/Obj_floor/Obj_floor.yy",},"order":2,},
     {"id":{"name":"Spr_weight_scale","path":"sprites/Spr_weight_scale/Spr_weight_scale.yy",},"order":0,},
     {"id":{"name":"Spr_test_scale","path":"sprites/Spr_test_scale/Spr_test_scale.yy",},"order":2,},

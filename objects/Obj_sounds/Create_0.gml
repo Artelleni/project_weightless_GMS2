@@ -5,5 +5,5 @@
 if(room = rm_test)
 {
 	
-audio_play_sound(track0,1,1);	
+//audio_play_sound(track0,1,1);	
 }

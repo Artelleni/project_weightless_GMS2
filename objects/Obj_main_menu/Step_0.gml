@@ -44,9 +44,28 @@ room_goto(rm_test);
 }
 }
 
-if(main_menu_button_selected == 2)
+if(main_menu_button_selected = 2)
+{
+
+ if(!main_menu_show_credits_bool)
+{
+	main_menu_show_credits_bool =    true;
+}
+
+}
+
+if(main_menu_button_selected == 3)
 {
  game_end();
 }
 
+}
+
+if(keyboard_check_pressed(vk_backspace))
+{
+ if(main_menu_show_credits_bool)
+{
+	main_menu_show_credits_bool =    false;
+}	
+	
 }

@@ -4,7 +4,7 @@ function Scr_scale_create(object0,scale_value)
 {
 
 
-
+bool_WeightMatch = false;
 object0.scale_weight_total = scale_value;
 object0.scale_weight_value	= 0;
 

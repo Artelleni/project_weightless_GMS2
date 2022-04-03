@@ -41,12 +41,9 @@ if(object_scale.bool_WeightMatch)
 
 }
 
-
 }
 
 }
-
-
 
 
 }

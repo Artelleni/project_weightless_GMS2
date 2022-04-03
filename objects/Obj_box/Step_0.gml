@@ -3,11 +3,4 @@
 
 
 
-
-Scr_scale_draw();
-
-if(debug_mode)
-{
-draw_text(0,0,string(bool_WeightMatch));
-
-}
+scr_object_movement(Obj_box);

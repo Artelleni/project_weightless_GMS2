@@ -10,10 +10,18 @@ if(room = rm_test)
 
 {
 
-Scr_scale_step(Obj_Object_test_0,Obj_scale,Obj_test_book);	
-Scr_scale_step(Obj_test_book,Obj_scale,Obj_Object_test_0);
+
+
+//Scr_scale_step(,,,scale_weight_total);	
+}
+
+
+if(room = rm_level_1)
+
+{
+Scr_scale_step(Obj_box,Obj_scale,Obj_cal);	
+Scr_scale_step(Obj_cal,Obj_scale,Obj_box);	
 
 
 }
-
 

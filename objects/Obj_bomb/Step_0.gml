@@ -19,11 +19,17 @@ if (room = rm_level_1 || room = rm_test)
 if( bomb_timer >= bomb_timer_total)
 
 {
-image_index = spr_kaboom;
- 
+sprite_index = spr_kaboom;
+if(!audio_is_playing(Boom) && !bomb_sound_once)
+{
+	audio_play_sound(Boom,1,0);
+	bomb_sound_once = true;
+	
+}
+Obj_levelmanger.Level_failed = true;
 
- 
- room_restart();
+
+
 
 
 

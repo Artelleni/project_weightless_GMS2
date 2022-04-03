@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if(Obj_scale.scale_weight_value == Obj_scale.scale_weight_total)
+if(Obj_scale.scale_weight_value == Obj_scale.scale_weight_total  || Level_failed)
 {
 	
 	
@@ -30,7 +30,7 @@ if(level_menu_button_selected != 0)
 
 if(keyboard_check_pressed(vk_enter))
 {
-if(level_menu_button_selected == 1)
+if(level_menu_button_selected == 1 &&  Obj_levelmanger.Level_failed == false )
 {
 if(room = rm_test)
 {
@@ -42,6 +42,11 @@ room_goto(rm_level_1);
 room_goto(rm_main_menu)
 
 }
+} else 
+{
+
+ room_restart();
+
 }
 
 

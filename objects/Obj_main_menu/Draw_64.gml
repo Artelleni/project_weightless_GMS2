@@ -49,9 +49,9 @@ break;
 
 
 draw_text_transformed(350,0,	"credits Menu"	,3.5,3.5,0);
-draw_text_transformed(250,150,"Programmer/artists TempoSparkz ",3.5,3.5,0);
+draw_text_transformed(150,150,"Programmer/artists TempoSparkz ",3.5,3.5,0);
 draw_text_transformed(250,230,"music CDplay"			,3.5,3.5,0);
-draw_text_transformed(250,310,"press back space to return to menu" ,3.5,3.5,0);
+draw_text_transformed(50,310,"press back space to return to menu" ,3.5,3.5,0);
 
 
 }

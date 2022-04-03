@@ -8,6 +8,6 @@ Scr_scale_draw();
 
 if(debug_mode)
 {
-draw_text(0,0,string(bool_WeightMatch));
+draw_text(999,30, "Bool Match " + string(bool_WeightMatch));
 
 }

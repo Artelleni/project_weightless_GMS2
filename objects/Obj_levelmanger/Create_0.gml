@@ -3,3 +3,5 @@
 
 level_menu_button_selected = 0;
 level_menu_button_total    = 3;
+
+level_compelte_show = false;

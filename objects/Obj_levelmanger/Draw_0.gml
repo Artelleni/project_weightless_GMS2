@@ -1,9 +1,14 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+if(debug_mode)
+{
+draw_text(1000,10, "Level Compelete = " + string(level_compelte_show));
 
+}
 if(Obj_scale.scale_weight_value == Obj_scale.scale_weight_total )
 {
+level_compelte_show = true;
 draw_set_color(c_white);	
 
 switch(level_menu_button_selected)
@@ -36,6 +41,10 @@ break;
 }
 
 
+
+} else 
+{
+level_compelte_show = false;
 
 }
 	

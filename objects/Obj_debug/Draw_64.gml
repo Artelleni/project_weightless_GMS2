@@ -18,4 +18,5 @@ if(keyboard_check(vk_numpad0))
 	draw_text(0,0,"DISC");
 }
 
+
 }

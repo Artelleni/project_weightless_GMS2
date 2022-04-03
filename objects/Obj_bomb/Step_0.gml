@@ -11,18 +11,26 @@ if (room = rm_level_1 || room = rm_test)
  {
 	
     bomb_timer += delta_time / 1000000 ;
+	
+	
 } 
 
 
 if( bomb_timer >= bomb_timer_total)
 
 {
+image_index = spr_kaboom;
+ 
 
+ 
  room_restart();
-}
+
+
+
 
 }
 
+}
 
 }
 
